@@ -84,8 +84,20 @@
     <Compile Include="SepararCadenas.Designer.cs">
       <DependentUpon>SepararCadenas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CalcularSuma.resx">
+      <DependentUpon>CalcularSuma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JustificarCadena.resx">
+      <DependentUpon>JustificarCadena.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarHora.resx">
+      <DependentUpon>MostrarHora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdenAlfabetico.resx">
+      <DependentUpon>OrdenAlfabetico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,6 +108,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SepararCadenas.resx">
+      <DependentUpon>SepararCadenas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

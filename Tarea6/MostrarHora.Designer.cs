@@ -28,11 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.HoraButton = new System.Windows.Forms.Button();
+            this.HoraTextBox = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // HoraButton
+            // 
+            this.HoraButton.Location = new System.Drawing.Point(32, 23);
+            this.HoraButton.Name = "HoraButton";
+            this.HoraButton.Size = new System.Drawing.Size(160, 23);
+            this.HoraButton.TabIndex = 0;
+            this.HoraButton.Text = "Motrar Hora y Fecha";
+            this.HoraButton.UseVisualStyleBackColor = true;
+            // 
+            // HoraTextBox
+            // 
+            this.HoraTextBox.Location = new System.Drawing.Point(32, 104);
+            this.HoraTextBox.Name = "HoraTextBox";
+            this.HoraTextBox.Size = new System.Drawing.Size(255, 20);
+            this.HoraTextBox.TabIndex = 1;
+            // 
+            // MostrarHora
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(549, 429);
+            this.Controls.Add(this.HoraTextBox);
+            this.Controls.Add(this.HoraButton);
+            this.MinimumSize = new System.Drawing.Size(283, 364);
+            this.Name = "MostrarHora";
             this.Text = "MostrarHora";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button HoraButton;
+        private System.Windows.Forms.TextBox HoraTextBox;
     }
 }

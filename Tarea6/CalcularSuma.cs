@@ -16,5 +16,10 @@ namespace Tarea6
         {
             InitializeComponent();
         }
+
+        private void ResultadoLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
