@@ -73,30 +73,35 @@
             this.separarCadenasToolStripMenuItem.Name = "separarCadenasToolStripMenuItem";
             this.separarCadenasToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.separarCadenasToolStripMenuItem.Text = "1-Separar Cadenas";
+            this.separarCadenasToolStripMenuItem.Click += new System.EventHandler(this.separarCadenasToolStripMenuItem_Click);
             // 
             // justificarCadenaToolStripMenuItem
             // 
             this.justificarCadenaToolStripMenuItem.Name = "justificarCadenaToolStripMenuItem";
             this.justificarCadenaToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.justificarCadenaToolStripMenuItem.Text = "2-Justificar Cadena";
+            this.justificarCadenaToolStripMenuItem.Click += new System.EventHandler(this.justificarCadenaToolStripMenuItem_Click);
             // 
             // mostrarHoraToolStripMenuItem
             // 
             this.mostrarHoraToolStripMenuItem.Name = "mostrarHoraToolStripMenuItem";
             this.mostrarHoraToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.mostrarHoraToolStripMenuItem.Text = "3-Mostrar Hora";
+            this.mostrarHoraToolStripMenuItem.Click += new System.EventHandler(this.mostrarHoraToolStripMenuItem_Click);
             // 
             // calcularSumaToolStripMenuItem
             // 
             this.calcularSumaToolStripMenuItem.Name = "calcularSumaToolStripMenuItem";
             this.calcularSumaToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.calcularSumaToolStripMenuItem.Text = "4-Calcular Suma";
+            this.calcularSumaToolStripMenuItem.Click += new System.EventHandler(this.calcularSumaToolStripMenuItem_Click);
             // 
             // ordenAlfabeticoToolStripMenuItem
             // 
             this.ordenAlfabeticoToolStripMenuItem.Name = "ordenAlfabeticoToolStripMenuItem";
             this.ordenAlfabeticoToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.ordenAlfabeticoToolStripMenuItem.Text = "5-Orden Alfabetico";
+            this.ordenAlfabeticoToolStripMenuItem.Click += new System.EventHandler(this.ordenAlfabeticoToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 
