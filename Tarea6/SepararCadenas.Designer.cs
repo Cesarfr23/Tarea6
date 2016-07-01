@@ -42,6 +42,7 @@
             this.SeparaButton.TabIndex = 0;
             this.SeparaButton.Text = "Separar";
             this.SeparaButton.UseVisualStyleBackColor = true;
+            this.SeparaButton.Click += new System.EventHandler(this.SeparaButton_Click);
             // 
             // Cadenalabel
             // 

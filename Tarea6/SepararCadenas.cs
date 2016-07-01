@@ -16,5 +16,16 @@ namespace Tarea6
         {
             InitializeComponent();
         }
+
+        private void SeparaButton_Click(object sender, EventArgs e)
+        {
+            string cadena = Convert.ToString(CadenaTextBox.Text);
+            string[] palabras = cadena.Split(' ');
+            foreach(string palabra in palabras)
+            {
+                CadenaSeparadaListBox.Items.AddRange(palabras);
+            }
+
+        }
     }
 }
