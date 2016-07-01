@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Tarea6
 {
-    public partial class OrdenAlfabetico : Form
+    public partial class OrdenAlfabetico : System.Windows.Forms.Form
     {
         public OrdenAlfabetico()
         {

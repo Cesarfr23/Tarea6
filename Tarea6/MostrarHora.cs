@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Tarea6
 {
-    public partial class MostrarHora : Form
+    public partial class MostrarHora : System.Windows.Forms.Form
     {
         public MostrarHora()
         {

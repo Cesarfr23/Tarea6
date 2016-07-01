@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Tarea6
 {
-    public partial class SepararCadenas : Form
+    public partial class SepararCadenas : System.Windows.Forms.Form
     {
         public SepararCadenas()
         {

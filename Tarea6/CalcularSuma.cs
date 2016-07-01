@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Tarea6
 {
-    public partial class CalcularSuma : Form
+    public partial class CalcularSuma : System.Windows.Forms.Form
     {
         public CalcularSuma()
         {

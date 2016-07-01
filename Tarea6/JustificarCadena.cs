@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Tarea6
 {
-    public partial class JustificarCadena : Form
+    public partial class JustificarCadena : System.Windows.Forms.Form
     {
         public JustificarCadena()
         {
