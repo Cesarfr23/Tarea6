@@ -28,35 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Numero1TextBox = new System.Windows.Forms.TextBox();
+            this.Numero2TextBox = new System.Windows.Forms.TextBox();
+            this.ResultadoTextBox = new System.Windows.Forms.TextBox();
             this.CalcularButton = new System.Windows.Forms.Button();
             this.Numero1Label = new System.Windows.Forms.Label();
             this.Numero2Label = new System.Windows.Forms.Label();
             this.ResultadoLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // Numero1TextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(131, 59);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 20);
-            this.textBox1.TabIndex = 0;
+            this.Numero1TextBox.Location = new System.Drawing.Point(131, 59);
+            this.Numero1TextBox.Name = "Numero1TextBox";
+            this.Numero1TextBox.Size = new System.Drawing.Size(141, 20);
+            this.Numero1TextBox.TabIndex = 0;
             // 
-            // textBox2
+            // Numero2TextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(131, 97);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(141, 20);
-            this.textBox2.TabIndex = 1;
+            this.Numero2TextBox.Location = new System.Drawing.Point(131, 97);
+            this.Numero2TextBox.Name = "Numero2TextBox";
+            this.Numero2TextBox.Size = new System.Drawing.Size(141, 20);
+            this.Numero2TextBox.TabIndex = 1;
             // 
-            // textBox3
+            // ResultadoTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(99, 146);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(173, 20);
-            this.textBox3.TabIndex = 2;
+            this.ResultadoTextBox.Location = new System.Drawing.Point(99, 146);
+            this.ResultadoTextBox.Name = "ResultadoTextBox";
+            this.ResultadoTextBox.Size = new System.Drawing.Size(173, 20);
+            this.ResultadoTextBox.TabIndex = 2;
             // 
             // CalcularButton
             // 
@@ -66,6 +66,7 @@
             this.CalcularButton.TabIndex = 3;
             this.CalcularButton.Text = "Calcular Suma";
             this.CalcularButton.UseVisualStyleBackColor = true;
+            this.CalcularButton.Click += new System.EventHandler(this.CalcularButton_Click);
             // 
             // Numero1Label
             // 
@@ -104,9 +105,9 @@
             this.Controls.Add(this.Numero2Label);
             this.Controls.Add(this.Numero1Label);
             this.Controls.Add(this.CalcularButton);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.ResultadoTextBox);
+            this.Controls.Add(this.Numero2TextBox);
+            this.Controls.Add(this.Numero1TextBox);
             this.MinimumSize = new System.Drawing.Size(283, 364);
             this.Name = "CalcularSuma";
             this.Text = "CalcularSuma";
@@ -117,9 +118,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox Numero1TextBox;
+        private System.Windows.Forms.TextBox Numero2TextBox;
+        private System.Windows.Forms.TextBox ResultadoTextBox;
         private System.Windows.Forms.Button CalcularButton;
         private System.Windows.Forms.Label Numero1Label;
         private System.Windows.Forms.Label Numero2Label;
