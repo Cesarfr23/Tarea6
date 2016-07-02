@@ -16,5 +16,10 @@ namespace Tarea6
         {
             InitializeComponent();
         }
+
+        private void HoraButton_Click(object sender, EventArgs e)
+        {
+            HoraTextBox.Text = DateTime.Now.ToLongTimeString();
+        }
     }
 }
