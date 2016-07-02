@@ -31,7 +31,8 @@
             this.OredenAlfabeticoButton = new System.Windows.Forms.Button();
             this.OrdenAlfabeticoLabel = new System.Windows.Forms.Label();
             this.CadenaEnOrdenListBox = new System.Windows.Forms.ListBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.OrdenarTextBox = new System.Windows.Forms.TextBox();
+            this.Ordenar2TextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // OredenAlfabeticoButton
@@ -42,6 +43,7 @@
             this.OredenAlfabeticoButton.TabIndex = 0;
             this.OredenAlfabeticoButton.Text = "Mostras En Oreden Alfabetico";
             this.OredenAlfabeticoButton.UseVisualStyleBackColor = true;
+            this.OredenAlfabeticoButton.Click += new System.EventHandler(this.OredenAlfabeticoButton_Click);
             // 
             // OrdenAlfabeticoLabel
             // 
@@ -60,19 +62,27 @@
             this.CadenaEnOrdenListBox.Size = new System.Drawing.Size(471, 95);
             this.CadenaEnOrdenListBox.TabIndex = 2;
             // 
-            // textBox1
+            // OrdenarTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(44, 102);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(471, 20);
-            this.textBox1.TabIndex = 3;
+            this.OrdenarTextBox.Location = new System.Drawing.Point(44, 102);
+            this.OrdenarTextBox.Name = "OrdenarTextBox";
+            this.OrdenarTextBox.Size = new System.Drawing.Size(471, 20);
+            this.OrdenarTextBox.TabIndex = 3;
+            // 
+            // Ordenar2TextBox
+            // 
+            this.Ordenar2TextBox.Location = new System.Drawing.Point(44, 129);
+            this.Ordenar2TextBox.Name = "Ordenar2TextBox";
+            this.Ordenar2TextBox.Size = new System.Drawing.Size(471, 20);
+            this.Ordenar2TextBox.TabIndex = 4;
             // 
             // OrdenAlfabetico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 429);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Ordenar2TextBox);
+            this.Controls.Add(this.OrdenarTextBox);
             this.Controls.Add(this.CadenaEnOrdenListBox);
             this.Controls.Add(this.OrdenAlfabeticoLabel);
             this.Controls.Add(this.OredenAlfabeticoButton);
@@ -89,6 +99,7 @@
         private System.Windows.Forms.Button OredenAlfabeticoButton;
         private System.Windows.Forms.Label OrdenAlfabeticoLabel;
         private System.Windows.Forms.ListBox CadenaEnOrdenListBox;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox OrdenarTextBox;
+        private System.Windows.Forms.TextBox Ordenar2TextBox;
     }
 }

@@ -32,14 +32,8 @@ namespace Tarea6
             numero2 = Convert.ToInt16(Numero2TextBox.Text);
 
             resultado = numero1 + numero2;
-            if(resultado<0)
-            {
-                ResultadoTextBox.Text = "(" + Convert.ToInt16(resultado) + ")";
-            }
-            else
-            {
-                ResultadoTextBox.Text = "" + Convert.ToInt16(resultado);
-            }
+   
+           ResultadoTextBox.Text = "" + Convert.ToString(string.Format("{0:#; (-#)}", resultado));
         }
     }
 }

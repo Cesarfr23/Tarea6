@@ -23,7 +23,7 @@ namespace Tarea6
             string[] palabras = cadena.Split(' ');
             foreach(string palabra in palabras)
             {
-                CadenaSeparadaListBox.Items.AddRange(palabras);
+                CadenaSeparadaListBox.Items.Add(palabra);
             }
 
         }

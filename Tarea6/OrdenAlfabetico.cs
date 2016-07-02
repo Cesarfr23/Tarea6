@@ -16,5 +16,16 @@ namespace Tarea6
         {
             InitializeComponent();
         }
+
+        private void OredenAlfabeticoButton_Click(object sender, EventArgs e)
+        {
+            string cadena = Convert.ToString(OrdenarTextBox.Text);
+            string cadena2 = Convert.ToString(Ordenar2TextBox.Text);
+
+
+           
+
+            CadenaEnOrdenListBox.Items.Add(string.CompareOrdinal(cadena, cadena2));
+        }
     }
 }
